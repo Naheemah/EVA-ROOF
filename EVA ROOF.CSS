@@ -1,0 +1,91 @@
+body {
+    background-color: skyblue;
+}
+.wrapper {
+    width: 1000px;
+    margin: 20px auto 20px auto;
+    height: 800px;
+    background-color: lightblue;
+    margin-top: 10px;
+}
+nav {
+    height: 80px;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+nav, footer {
+    clear: both;
+}
+nav ul {
+    text-align: right;
+    margin: 0px;
+    padding: 30px 0px 5px 30px;
+}
+nav li {
+    display: inline;
+    margin: 5px;
+}
+nav li a {
+    color: hsl(224 23% 55%);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 10px;
+}
+nav li a:hover {
+    color: chartreuse;
+}
+ul.footer {
+    margin: 0px;
+    padding: 20px 0px 5px 30px;
+}
+ul.footer li {
+    display: inline;
+}
+ul.footer a {
+    text-decoration: none;
+}
+ul.footer li a p {
+    display: inline;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+section {
+    width: 900px;
+    margin-top: 5px;
+}
+img {
+    padding-left: 20px;
+}
+figure {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+figure.ONE {
+    float: right;
+    margin-left: 20px;
+}
+figure {
+    width: 290px;
+    height: 330px;
+}
+h2 {
+    color: blue;
+    font-weight: bold;
+    padding-left: 20px;
+}
+p {
+    padding-left: 20px;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+}
+figcaption {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    padding-left: 20px;
+}
